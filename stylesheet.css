@@ -1,0 +1,93 @@
+body{
+    max-width: 1440px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    background-color: hsl(0, 0%, 8%);
+    margin: auto;
+    margin-top: 80px;
+    font-size: 14px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    width: 30%;
+    color:hsl(0, 0%, 100%);
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    margin: auto;
+    padding: 40px;
+}
+
+.profile-pic{
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 100%;
+    width: 30%;
+    height: auto;
+}
+
+#name{
+    font-weight: 700;
+}
+
+#location{
+    color: hsl(75, 94%, 57%);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 0.25;
+    padding-bottom: 10px;
+}
+
+#ocupation{
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.text{
+    padding-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons a{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    background-color: hsl(0, 0%, 20%);
+    color:hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    padding: 15px;
+    cursor: pointer
+}
+
+.buttons a:hover {
+    color: hsl(0, 0%, 100%);
+    background-color:  hsl(0, 1%, 30%);
+}
+
+footer{
+    margin-top: 50px;
+}
+.attribution {
+    font-size: 11px; text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
